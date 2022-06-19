@@ -1,0 +1,63 @@
+.slider--main
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide--container
+{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    transition: 280ms ease-in;
+    border-radius: 40px;
+
+}
+
+.img--slide.on1
+{
+    margin-left: 0px;
+    transition: 280ms ease-in;
+}
+.img--slide.on2
+{
+    margin-left: -500px;
+    transition: 280ms ease-in;
+}
+.img--slide.on3
+{
+    margin-left: -1000px;
+    transition: 280ms ease-in;
+}
+
+
+.next
+{
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.prev
+{
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.testimony
+{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #101727;
+    padding: 1rem 0rem;
+}
+.testimony p
+{
+    width: 50%;
+    margin: 0 auto;
+}

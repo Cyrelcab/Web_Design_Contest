@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="icon" href="img/LOGO 2.png">
+    <link rel="stylesheet" href="ripe.css">
+    <link rel="stylesheet" href="behind_about.css">
+    <link rel="stylesheet" href="style/course.css">
+    <title>CCIS</title>
+</head>
+<body>
+    <header class="head--main">
+        <nav class="nav--bar">
+            <img width = "64" src="img/LOGO 2.png" alt="logo">
+            <ul>
+                <a id = "bnt1" href="#home" class="nav--bnt">Home</a>
+                <a id = "bnt2" href="#aboutUs" class="nav--bnt">About Us</a>
+                <a id = "bnt3"href="#courseOffered" class="nav--bnt">Course Offered</a>
+                <a id = "bnt4"href="#Opportunities" class="nav--bnt">Opportunities</a>
+                <a href="" class="enroll--bnt">Enroll Now!</a>
+            </ul>
+        </nav>
+    </header>
+    <!--This is the Landing page Section-->
+    <section id = "home" class="landing--page">
+        <img class = "building" src="img/landing_page/Building.png" alt="">
+        <img class = "blur" src="img/landing_page/Rectangle 1.png" alt="">
+        <div class="intro">
+            <img src="img/LOGO 2.png" alt="">
+            <h1>Your <span>Future's Success</span> is waiting for you</h1>
+            <p>Featuring College of Computing and Information Sciences of Caraga State University, home of high-quality aspiring Tech Professionals</p>
+        </div>
+    </section>
+    <!--behind the scenes-->
+    <section class="about" id="aboutUs">
+        <div class="frame"><img src="img/Rectangle 5.png" alt=""></div>
+                <div class="about--us">
+                    <div class="about--contents">
+                        <h1>About Us</h1>
+                        <h4>The College of Computing and Information Sciences presents <br>
+                            you its legacy</h4>
+                        <p>CCIS’ abbreviation in early 2000 was CEIT
+                            or College of Engineering and Information 
+                            Technology consist of a 4-year Bachelor of Science in Information Technology and Computer Science. There were also 3 additional offered courses of the college before and since student’s population had been rising rapidly, it was later on named, College of Computing and Information Sciences which offers (3) three programs.</p>
+                        <img class = "mecha" src="img/img_building.png" alt="Mechatronix">
+                        <h2>THE MECHATRONICS</h2>
+                        <h5>College of Computing and Information Sciences Main Building.</h5>
+                       <div class="location">
+                        <img src="img/add-location.png" alt="">
+                        <h6>Caraga State University, Ampayon, Butuan City </h6>
+                       </div>
+                    </div>
+                </div>
+        <div class="behind--scene">
+            <div class="scene--header">
+                <h1>Behind the Scenes</h1>
+                <h4>Explore the experience of a CCIS Student from different courses offered by the college</h4>
+                    
+            </div>
+            <div class="scene--items">
+                <img src="img/behind_pic/image 5.png" alt="">
+                <img src="img/behind_pic/image 6.png" alt="">
+                <img src="img/behind_pic/image 7.png" alt="">
+            </div>
+        </div>
+                <div class="ripe--content">
+                    <h1>We are <span class="underline">RIPE</span></h1>
+                    <div class="ripe--items">
+                        <div class="ripe--items--link1">
+                            <img src="img/icon/robot.png" alt="">
+                            <h2>Research</h2>
+                            <p>To produce quality computing researches anchored to the national and regional priority areas 
+                                and are relevant to the industry needs.</p>
+                        </div>
+                        <div class="ripe--items--link2">
+                            <img src="img/icon/book.png" alt="">
+                            <h2>Instruction</h2>
+                            <p>A leading institution delivering quality academic programs
+                                that is responsive to the needs of the industry in Caraga 
+                                region and beyond.</p>
+                        </div>
+                        <div class="ripe--items--link3">
+                            <img src="img/icon/Vector.png" alt="">
+                            <h2>Production</h2>
+                            <p>Generate revenue from Research and Development 
+                                Innovation (RDI) outputs and services.</p>
+                        </div>
+                        <div class="ripe--items--link4">
+                            <img src="img/icon/show chart.png" alt="">
+                            <h2>Extension</h2>
+                            <p>Deploy computing RDI outputs to improve the quality of life of the community.</p>
+                        </div>
+                    </div>
+                </div>
+       
+    </section>
+    <section class="course--offered" id="courseOffered">
+        <div class="bg--pic">
+            <img src="img/guy 1.png" alt="">
+            <img src="img/girl 1.png" alt="">
+        </div>
+        <div class="co-header">
+            <h1>Courses Offered</h1>
+        <h3>The College of Computing and Information Sciences<br>
+            offers varieties of courses</h3>
+        </div>
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="itCardHeader">
+                    <img  width = "150"src="img/logo/bsit-logo.png" alt="">
+                    <div class="bsit-cf-content">
+                        <h1 class="header-logo">BSIT</h1>
+                        <p>
+                            BSIT is a 4-year program which focuses on the study of computer utilization and computer software to plan, install, costumize, operate,
+                            manage, administer, and maintain information technology infrastucture                             
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="csCardHeader">
+                    <img src="img/logo/bscs-logo.jpg" alt="">
+                    <div class="bscs-cf-content">
+                        <h1 class="header-logo">BSCS</h1>
+                        <p>
+                            BSIT is a 4-year program that includes the study of computing concepts and theories algorithmic foundations and new developments in computing. Graduates should be able to design algorithmically complex software new and effiecient algorithms for solving computer problems. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="isCardHeader">
+                    <img src="img/logo/bsis-logo.jpg" alt="">
+                    <div class="bsis-cf-content">
+                        <h1 class="header-logo">BSIS</h1>
+                        <p>BSIS is a 4-year program that prepares students to be able to help the organization on how information and technology-enabled business processes can be used as strategic tool for achieving competitive advantages. </p>
+                    </div>
+                </div>
+            </div>
+        </div>                                 
+       
+    </section>
+    <section class="opp--main" id="Opportunities">
+        <div class="opp--header">
+            <h1>Opportunities</h1>
+            <h4>Right after graduation, the college ensures you that you will</h4>
+            <h4>get the following job of each courses</h4>
+        </div>
+        <div class="opp--content">
+            <div class="opp--content--bsit">
+                <div class="heading--logo">
+                    <div class="logo--line">
+                        <h1>BSIT</h1>
+                        <p></p>
+                    </div>
+                    <h1>Bachelor of Science in</h1>
+                    <h1 class="color--logo">Information Technology</h1>
+                </div>
+                <p class="p--content">Computer Technical Support Specialist, Software Developer, Business Intelligence (BI) Analyst, Web Developer, Software Quality Assurance (QA) Tester, Information Security Analyst, Computer Science Teacher</p>
+            </div>
+            <div class="opp--content--bscs">
+                <div class="heading--logo">
+                    <div class="logo--line1">
+                        <p></p>
+                        <h1>BSCS</h1>
+                    </div>
+                    <h1>Bachelor of Science in</h1>
+                    <h1 class="color--logo">Computer Science</h1>
+                </div>
+                <p class="p--content">Software Engineer, Applications Software Developer, Data Analyst, Data Engineer, Systems Software Developer, Systems Analyst, Game Developer</p>
+            </div>
+            <div class="opp--content--bsis">
+                <div class="heading--logo">
+                    <div class="logo--line">
+                        <h1>BSIS</h1>
+                        <p></p>
+                    </div>
+                    <h1>Bachelor of Science in</h1>
+                    <h1 class="color--logo">Information Systems</h1>
+                </div>
+                <p class="p--content">Information Sytems Manager, Computer Network Architect, Software Developer, Information Securtity Analyst, Database Administrator, Computer System Administrator</p>  
+            </div>
+        </div>
+        <div class="testimony">
+            <h1>TESTIMONIALS</h1>
+            <p>Here out some of testimonies from the seniors of College of Computing and Information Sciences</p>
+        </div>
+        <div class="slider--main">
+            <div class="prev"><img width = "45" src="img/slider/prev.png" alt=""></div>
+            <ul class="slide--container">
+                <img class = "img--slide on1" src="img/slider/Card-BSIT.png" alt="">
+                <img src="img/slider/Card-BSIS-2.png" alt="">
+                <img src="img/slider/Card-BSIS.png" alt="">
+            </ul>
+            <div class="next"><img width = "45" src="img/slider/next.png" alt=""></div>
+        </div>
+        <div class="nav--slider">
+            <div id = "sliderBnt1" class="select click"></div>
+            <div id = "sliderBnt2" class="select"></div>
+            <div id = "sliderBnt3" class="select"></div>
+        </div>
+    </section>
+    <footer>
+        <section class="end">
+                <div class="end--content">
+                    <div class="end--content--left">
+                        <img src="img/CCIS 1.png" alt="">
+                        <h4>College of Computing and Information Sciences</h4>
+                    </div>
+                    <div class="end--content--right">
+                        <p>All rights reserved 2022</p>
+                    </div>
+                </div>
+        </section>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

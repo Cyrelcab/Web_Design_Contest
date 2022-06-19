@@ -1,0 +1,128 @@
+/*About--Us*/
+.about--us{
+    position: relative;
+    display: block;
+    height: 65vh;
+    width: 80vw;
+    margin: 5% 0 0 7%;
+}
+
+.about--us h1{
+    width: 20%;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px 0 10px 45%;
+    color: var(--font-color);
+    background-color: var(--color-text);
+}
+
+.about--us h4{
+    text-align: center;
+    margin: 10px 0 20px 12%;
+    font-size: 20px;
+}
+
+.about--us p{
+    width: 45%;
+    font-size: 1.4rem;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+.mecha{
+    top: -10%;
+    right: -15%;
+    z-index: -1;
+    width: 90%;
+    position: absolute;  
+    height: 160%;  
+}
+.about--us h2{
+    font-size: 4.7rem;
+    right: -10%;
+    bottom: -30%;
+    position: absolute;
+    color: var(--color-text);
+}
+.about--us h5{
+    right: 17%;
+    bottom: -33%;
+    position: absolute;
+    font-size: medium;
+    color: var(--color-text);
+}
+.location{
+    right: 31%;
+    bottom: -40%;
+    position: absolute;
+    font-size: small;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+/*behind--the--scene*/
+.behind--scene{
+    height: 170vh;
+    width: 100%;
+}
+.scene--header{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(--color-text);
+    padding: 20rem;
+    bottom:-10%;
+}
+.scene--header h1{
+    font-weight: bold;
+    font-size: 40px;
+    bottom:-40px ;
+    
+}
+.scene--header h4{
+    padding-top: 1rem;
+    width: 42%;
+    margin-left: 30%;
+}
+.scene{
+    position: relative;
+    top: -15%;
+    width:100;
+    height: 70vh;
+}
+.frame{
+    z-index: 0;
+    position: absolute;
+    top:3rem;
+    bottom: 0;
+    height: 30vh;
+    width: 100vw;
+}
+.frame img{
+    width: 80%;
+    z-index: 1;
+    padding-left: 9%;
+}
+.scene--items{
+    position: relative;
+    text-align: center;
+    top: -25%;
+    z-index: 1;
+   
+}
+.scene--items img{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 1rem;
+    transition: transform 500ms ease;
+}
+.scene--items img:hover{
+    transform: scale(1.15);
+}
+
+
+
